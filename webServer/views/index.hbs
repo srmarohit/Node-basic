@@ -3,9 +3,21 @@
 <head>
 <title>Home</title>
 <link rel="stylesheet" href="./css/main.css">
-<script src="/js/main.js" type="text/javascript"></script>
 </head>
 <body>
-<h2>Welcome Home Page</h2>
+{{>header}}
+<h2>Weather Page</h2>
+<form>
+<input type="text" name="address "placeholder="Enter Location">
+<button type="submit">Find</button>
+</form>
+
+<p class="weatherInfo"></p>
+<p class="weatherInfo"></p>
+
+{{>footer}}
+
+<script src="/js/main.js" type="text/javascript"></script>
+
 </body>
 </html>
