@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\weatherApp\\utils",
+    "\\webServer",
+    "\\webServer\\public",
+    "\\webServer\\views"
+  ],
+  "SelectedNode": "\\webServer\\views\\index.hbs",
+  "PreviewInSolutionExplorer": false
+}
